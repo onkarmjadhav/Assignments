@@ -25,7 +25,6 @@ public class ZipCodeRestrictions {
 			String zipCodeBoundary = zipCodeArray[i];
 			String zipCodeLower = zipCodeBoundary.substring(1, 6);
 			String zipCodeHigher = zipCodeBoundary.substring(7, 12);
-			System.out.println("Lower : " + zipCodeLower + " Higher : " + zipCodeHigher);
 			
 			validateZipCodes(Integer.parseInt(zipCodeLower), Integer.parseInt(zipCodeHigher));
 		}
