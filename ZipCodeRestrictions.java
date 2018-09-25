@@ -6,7 +6,7 @@ import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
 
-public class ZipCodeRange {
+public class ZipCodeRestrictions {
 
 	static Map<Integer, Integer> zipMap = new TreeMap<>();
 
